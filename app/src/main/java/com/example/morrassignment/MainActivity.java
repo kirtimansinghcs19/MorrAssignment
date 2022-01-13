@@ -2,6 +2,7 @@ package com.example.morrassignment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -79,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+    //luhn check algo
     private static boolean luhnCheck(String cardNumber) {
         // number must be validated as 0..9 numeric first!!
         int digits = cardNumber.length();
